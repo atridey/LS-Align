@@ -1,0 +1,5 @@
+TestMolecule/
+TrainingSet/
+*.pdb
+*.gro
+*.bak

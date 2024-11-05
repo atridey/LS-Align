@@ -6,7 +6,7 @@ Requires scipy, numpy, and openbabel in a **conda environment**—the pip versio
 Query and template molecule files of an [openbabel supported format](https://open-babel.readthedocs.io/en/latest/FileFormats/Overview.html) should be included in the working directory.
 
 ### Usage
-Enter the query and template filenames as prompted in the console. The aligned template will be exported to `aligned_query.pdb` in the working directory.
+Run `main.py` and enter the query and template filenames as prompted in the console. The aligned template will be exported to `aligned_query.pdb` in the working directory.
 
 ### Evaluation
 `rmsd.py` is a testing tool of mine that evaluates how well two molecules have been superimposed by calculating their root mean square deviation, which I have included here. To use, input the filenames when prompted—RMSD will be printed to console.
